@@ -320,3 +320,72 @@ nav{
         }
     }
 }
+
+@media screen and (max-width:414px) 
+{   
+    
+    nav{
+         font-size: 0.5em;
+         
+         figure{
+           width: 15%; 
+           justify-content:start;
+    }
+    a{
+        width: 80%;
+    }
+    }
+    .revolverhead{
+            width: 70%;
+        }
+    .citation{
+        font-size: 0.875em;
+    }
+    .panneaux{
+        .panneau1txt{
+            
+            h2{
+                font-size: 2em;
+            }
+            h3{
+                font-size: 1em;
+            }
+            p{
+                font-size: 0.5em;
+            }
+            a{
+                font-size: 0.6em;
+            }
+            padding-bottom: 4em;
+        }
+    }
+    .pins{
+        width: 100%;
+        padding: 4em 0;
+        position:initial;
+        justify-items: center;
+        justify-content: center;
+        .boxpin{
+            width: 50%;
+            img{
+                width: 35%;
+            }
+            h3{
+                font-size: 0.8em;
+                padding-bottom: 0.4em;
+            }
+            p{
+                font-size: 0.5em;
+            }
+        }
+    }
+    .offer{
+        padding: 2em 0em;
+        h2{
+            font-size: 1.2em;
+        }
+        p{
+            font-size: 0.4em;
+        }
+    }
+}
